@@ -7,18 +7,42 @@
     <body> 
         <div class="alert">
           <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
-          <strong>Disclaimer:</strong> This website is in a beta state - the full version of the website will be released with the official reveal trailer. Click the 'x' button to close this alert.
+          <strong>Disclaimer:</strong> This website is in a beta state - the full version of the website will be released with the official trailer. Click the 'x' button to close this alert.
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
           <article class="main">
             <br>
             <br>
             <br>
             <h1>Astraverse</h1>
             <p>Astraverse is an upcoming Minecraft Java server aimed to provide the best experience for everyone - opening for a closed beta soon. </p>
-            <p>Our goal is to host a variety of minigames that everyone can enjoy and develop a friendly community. From classic survival Minecraft with no admin intervention, to duelling it out with fun PVP minigames, to escaping fun parkour maps - there's plenty of fun to have! </p>
-            <a href="https://youtu.be/_I0fjrXFMiY" target="_blank">Teaser Trailer</a>
+            <p>Our goal is to host a variety of things to do that everyone can enjoy, while developing a friendly community. From classic survival Minecraft with no admin intervention, to duelling it out with fun PVP minigames, to escaping fun parkour maps - there's plenty of fun to have! </p>
+            <br>
+            <br>
+            <a href="https://youtu.be/_I0fjrXFMiY" target="_blank">Watch the teaser</a>
+            <br>
             <br>
             <br>            
+            <br>
+            <br>
+          </article>
+
+          <br>
+
+          <article class="astrasmp">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Astra SMP</h2>
+            <p>Astra SMP has undergone a variety of changes - originating from an humble closed Bedrock SMP to becoming a part of Astraverse. This part of Astraverse is just a classic survival world in which you and your friends can join and play in together as you try to survive the dangers that lurk in Minecraft. No mods, no admin intervention.</p>
+            <br>
+            <br>
+            <a>More information soon</a>
+            <br>
+            <br>
+            <br>
             <br>
             <br>
           </article>
@@ -35,13 +59,78 @@
               <p>PVP is one of the four major aspects of Astraverse. We host a multitude of minigames that have been tested for the upmost quality, and built on maps that look visually appeasing to the eye.</p>
               <br>
               <br>
-              <a href="pvp.html">Learn more</a>
+              <a>More information soon</a>
               <br>
               <br>
               <br>
               <br>
               <br>
             </article>
+
+            <br>
+
+            <article class="parkour">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <h2>Parkour</h2>
+              <p>Astraverse's parkour has been specially crafted to be fun and enjoyable while also proiding an unique experience to many. Enjoy highly curated maps while you try and escape. You can also just practice in the practice area, as well as find secrets hidden everywhere!</p>
+              <br>
+              <br>
+              <a>More information soon</a>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </article>
+
+            <br>
+
+            <article class="commitment">
+              <br>
+              <br>
+              <br>
+              <h2>Commit</h2>
+              <p>Astraverse is a huge project - bigger than any of us on the team have ever tried before. We have commited to making a server that everyone can enjoy - and we have already taken hours of work and started to upgrade servers just so everyone can have the best experience.</p>
+              <p>To help us make sure that we can deliver an optimal experience while maintaining speed of updates, job applications will be opening soon. We will be requiring decent builders as well as testers. </p>
+              <br>
+              <br>
+              <a>Applications opening soon!</a>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </article>
+            <br>
+
+            <footer>
+              <p>Website created by a456pur and hosted by GitHub Pages.</p>
+              <a href="mailto:astraverse.team@gmail.com">Support email</a>
+            </footer>
+
+            <script>
+              let mybutton = document.getElementById("myBtn");
+
+              window.onscroll = function() {scrollFunction()};
+
+              function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                  mybutton.style.display = "block";
+                } else {
+                  mybutton.style.display = "none";
+                }
+              }
+
+
+              function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+              } 
+            </script>
 
     </body>
 </html>
