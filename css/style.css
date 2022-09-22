@@ -98,6 +98,19 @@ a:focus {
     padding: 5px;
 }
 
+.commitments {
+  margin: 100;
+  padding: 10px;
+  background-color: rgb(22, 20, 20);
+  color: white;
+  text-align: center;
+  transition: all 0.1s ease-out
+}
+  
+.commitments > h1, .browser {
+    padding: 5px;
+}
+
 .alert {
   padding: 20px;
   background-color: #f44336;
